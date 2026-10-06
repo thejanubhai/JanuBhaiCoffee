@@ -1,5 +1,5 @@
 {
-  "name": "temp-app",
+  "name": "janubhaicoffee",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,8 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.108.2",
+    "firebase": "^12.19.0",
+    "firebase-admin": "^14.5.0",
     "framer-motion": "^12.40.0",
     "idb": "^8.0.3",
     "lucide-react": "^1.21.0",
