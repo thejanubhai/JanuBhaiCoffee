@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabaseWrapper';
 
 // Initialize Supabase admin client to bypass RLS for webhook updates
 const supabase = createClient(

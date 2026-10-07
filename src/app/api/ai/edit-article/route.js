@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabaseWrapper';
 
 const INVOKE_URL = 'https://integrate.api.nvidia.com/v1/chat/completions';
 
